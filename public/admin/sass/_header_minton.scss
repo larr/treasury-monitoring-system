@@ -1,0 +1,40 @@
+.topbar-custom .nav-link {
+  line-height: 42px;
+}
+#topnav .topbar-main .logo {
+  line-height: 44px;
+}
+#topnav .navigation-menu > li > a {
+  @media (min-width: 992px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+#topnav .navigation-menu > li > a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.small-text {
+  font-size: 58%;
+  font-weight: 400;
+}
+
+#topnav .navbar-toggle .lines {
+  padding-top: 15px;
+}
+
+#topnav .navbar-toggle.open span {
+  &:last-child {
+    top: 22px;
+  }
+  &:first-child {
+    top: 22px;
+  }
+}
+
+//#topnav .navigation-menu > li .submenu li a {
+//  @media (min-width: 992px) {
+//    //padding: 0 25px;
+//  }
+//}

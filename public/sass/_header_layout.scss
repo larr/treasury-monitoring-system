@@ -1,0 +1,18 @@
+.content-header {
+  position: relative;
+  display: block;
+  margin-bottom: 1rem;
+  h4 {
+    margin: 0;
+  }
+  .breadcrumb {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    background: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}

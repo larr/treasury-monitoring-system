@@ -1,0 +1,109 @@
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.table-select-bu {
+  td,th {
+    padding: 0;
+  }
+}
+
+.table-responsive {
+  display: inline-block;
+  clear: both;
+}
+
+.jc-table {
+  table-layout: fixed;
+  float: left;
+  tbody {
+    td {
+      vertical-align: middle;
+    }
+  }
+}
+
+.sm-tb {
+  width: 100%;
+  border:1px solid black;
+  padding:5px;
+  thead {
+    tr {
+      th {
+        border:1px solid black;
+        font-size: 20px;
+        padding:5px;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        font-size: 20px;
+        border:1px solid black;
+        padding:5px;
+      }
+    }
+  }
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.cpo-table {
+  width: 100%;
+  font-size: 21px;
+  margin-top: 85px;
+  //border: 1px solid #000;
+  thead {
+    text-align: center;
+    th {
+
+      text-transform: uppercase;
+    }
+  }
+  tbody {
+    td {
+      &.pl-85 {
+        padding-left: 134px;
+      }
+    }
+  }
+}
+
+div#dataCashlog {
+  .report-block {
+    width:100%;
+    text-align:center;
+    padding:10px;
+  }
+  .block-wrap {
+    width:100%;
+    font-size: 18px;
+  }
+  .wrap-50 {
+    width: 48%;
+  }
+}
+
+table#dataCashlog {
+  border:1px solid black;
+  padding:5px;
+  width:100%;
+  thead {
+    border:1px solid black;
+    th {
+      border:1px solid black;
+      padding:5px;
+    }
+  }
+  tbody {
+    border:1px solid black;
+    padding:5px;
+    td {
+      border:1px solid black;
+      padding:5px;
+    }
+  }
+}

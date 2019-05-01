@@ -1,0 +1,129 @@
+$color: #3bafda;
+$colorborder: #2494be;
+$rgba: rgba(0, 177, 157, 0.23);
+$rgba2: rgba(59, 175, 218, 0.5);
+
+#topnav {
+
+  .has-submenu.active {
+    a,i {
+      color: $color;
+    }
+
+    .submenu {
+      li {
+        &.active {
+          a {
+            color: $color;
+          }
+        }
+      }
+    }
+
+  }
+
+  .topbar-main {
+    background-color: $color;
+  }
+}
+
+@media (min-width: 992px) {
+  #topnav .navigation-menu > li:hover a {
+    color: $color;
+  }
+  #topnav .navigation-menu > li:hover a i {
+    color: $color;
+  }
+  #topnav .navigation-menu > li > ul > li.has-submenu:active > a,
+  #topnav .navigation-menu > li > ul > li.has-submenu:hover > a {
+    color: $color;
+  }
+}
+
+a {
+  color: $color;
+}
+
+.btn-outline-primary {
+  color: $color;
+  border-color: $color;
+  &:hover {
+    background-color: $color;
+    border-color: $color;
+  }
+  &:focus {
+    background-color: $color;
+    border-color: $color;
+    color: #FFFFFF;
+    -webkit-box-shadow: 0 0 0 2px rgba(56, 202, 181, 0.5) !important;
+    box-shadow: 0 0 0 2px rgba(56, 202, 181, 0.5) !important;
+  }
+  &:visited {
+    background-color: $color;
+    border-color: $color;
+  }
+  &:active {
+    background-color: $color !important;
+    border-color: $color !important;
+  }
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.page-item.active .page-link {
+  background-color: $color;
+  border-color: $color;
+}
+
+.table-hover tbody tr:hover {
+  background-color: $rgba;
+}
+
+.page-link:hover {
+  color: $color;
+}
+
+a:hover, a:active, a:focus {
+  color: $color;
+}
+
+.badge-primary {
+  background-color: $color;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+  background-color: $color;
+  border-color: $color;
+}
+
+#topnav .navigation-menu > li .submenu li a:hover {
+  color: $color;
+}
+
+.btn-custom.btn-primary {
+  border-bottom: 2px solid $colorborder !important;
+}
+
+.btn-primary {
+  background-color: $color;
+  border: 1px solid $color;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active,
+.btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover,
+.open > .dropdown-toggle.btn-primary, .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: $colorborder;
+  border-color: $colorborder;
+}
+
+.btn-primary.focus, .btn-primary:focus, .btn-outline-primary.focus, .btn-outline-primary:focus,
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show > .btn-primary.dropdown-toggle,
+.btn-primary:not([disabled]):not(.disabled).active:focus, .btn-primary:not([disabled]):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 2px $rgba2;
+  box-shadow: 0 0 0 2px $rgba2;
+}

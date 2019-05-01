@@ -1,0 +1,79 @@
+.input-box {
+  display: block;
+  width: 100%;
+  height: calc(1.6em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-group-button {
+  cursor: pointer;
+}
+
+.input-group>.input-box:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group>.input-box:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-group {
+  .input-box {
+    width: auto;
+    display: block;
+    min-height: 32px;
+    overflow: hidden;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    max-width: 24rem;
+    min-width: 6rem;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0 5px;
+      width: 100%;
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      .input-box-item {
+        background-color: gray;
+        color: #fff;
+        padding: 4px 9px;
+        border-radius: 6px;
+        margin-right: 5px;
+        margin-top: 7px;
+        float: left;
+      }
+
+    }
+  }
+}
+
+.box_remove {
+  margin-right: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.alert {
+  ul {
+    margin:0;
+    padding: 0;
+    li {
+      list-style-type: none;
+    }
+  }
+}
